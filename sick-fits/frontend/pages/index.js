@@ -1,9 +1,10 @@
 // @flow
 import React from 'react';
+import Items from '../components/Items';
 
-const Home = () => (
+const Home = ({ query }) => (
   <div>
-    <p>Hey!</p>
+    <Items page={parseFloat(query.page) || 1} />
   </div>
 );
 

@@ -1,0 +1,12 @@
+{
+  "projects": {
+    "prisma": {
+      "schemaPath": "schema.graphql",
+      "extensions": {
+        "endpoints": {
+          "default": "https://eu1.prisma.sh/vlad-m-38341a/back/dev"
+        }
+      }
+    }
+  }
+}

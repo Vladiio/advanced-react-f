@@ -4,7 +4,9 @@ import styled, { ThemeProvider, injectGlobal } from 'styled-components';
 import Header from './Header';
 import Meta from './Meta';
 
-const theme: {} = {
+const theme: {
+  black: string,
+} = {
   red: '#FF0000',
   black: '#393939',
   grey: '#3A3A3A',

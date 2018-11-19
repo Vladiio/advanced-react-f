@@ -1,0 +1,6 @@
+endpoint: ${env:PRISMA_ENDPOINT}
+datamodel: datamodel.prisma
+
+hooks:
+  post-deploy:
+    - grapqhl get-schema -p prisma

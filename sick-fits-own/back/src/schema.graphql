@@ -1,0 +1,9 @@
+# import * from '../schema.graphql'
+
+type Mutation {
+  test: String!
+}
+
+type Query {
+  test: String!
+}
