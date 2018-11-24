@@ -1,9 +1,11 @@
 import * as React from 'react';
 import Link from 'next/link';
+import User from './User';
 import NavStyles from './styles/NavStyles';
 
 const Nav = (): React.Node => (
   <NavStyles>
+    <User>{({ data: { me } }) => me && <p>{me.name}</p>}</User>
     <Link href="/items">
       <a>Shop</a>
     </Link>
